@@ -1,0 +1,171 @@
+html{
+  font-size: 65%;
+  line-height: 1.6;
+}
+
+body{
+  font-size: 1.6rem;
+  background-image: url('pictures/bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode:darken;
+  color:whitesmoke;
+
+}
+
+.main{
+  padding:6rem;
+  margin:7rem 0;
+  font-size:2.8rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+/* Header Section */ 
+
+.header{
+  width:100%;
+  background-color: rgba(0,0,0,0.7);
+  color:whitesmoke;
+  text-align: center;
+  top:0;
+  left:0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position:absolute;
+}
+.name{
+  margin-top:0;
+  margin-bottom: 0.5rem;
+  font-family:cursive;
+  font-size: 8rem;
+  margin-right: 2rem;
+}
+
+button{
+  padding:0.6rem;
+  font-size:2rem;
+  background-color: transparent;
+  color:whitesmoke;
+  outline: none;
+  border-style: none;
+}
+
+button:hover{
+  cursor: pointer;
+  border-bottom:2px solid yellow;
+  transform: translateY(-5%);
+}
+
+/* Home Content*/ 
+
+h2{
+  font-family: cursive;
+}
+
+.home-p{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  word-break: normal;
+  border:1px solid black;
+  margin-top: 8rem;
+  background-color: rgba(0,0,0,0.7);
+
+  font-weight: 900;
+}
+
+/* Menu Content */
+
+.menu-header{
+  background-color: rgba(0,0,0,0.7);
+  border: 1px solid black;
+  margin-top: 8rem;
+}
+.section-header{
+  background-color: rgba(0,0,0,0.7);
+  border: 1px solid black;
+  margin-bottom:1rem;
+  border-radius: 20px;
+  font-family: cursive;
+}
+
+.menu-p{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  word-break: normal;
+  border:1px solid black;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  background-color: rgba(0,0,0,0.7);
+  font-weight: 900;
+}
+
+/* Contact Section*/
+
+.contact-p{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  word-break: normal;
+  border:1px solid black;
+  margin-top: 8rem;
+  background-color: rgba(0,0,0,0.7);
+  font-weight: 900;
+  font-size: 4rem;
+
+}
+
+.contact-card{
+  margin-top: 8rem;
+  background-color: rgba(0,0,0,0.7);
+  width:75vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 7rem;
+  
+}
+
+
+/* Footer Content */
+
+.footer{
+text-align: center;
+gap:1rem;
+width:100%;
+padding:1rem;
+background-color: rgba(0,0,0,0.7);
+margin-left: -9px;
+margin-top: auto;
+position:absolute;
+font-size: 2.5rem;
+line-height: 3rem;
+
+display: flex;
+justify-content: center;
+}
+
+.cow-pic{
+  height:10rem;
+  width:20rem;
+  margin-left: 3rem;
+}
+
+/* Media Query */ 
+
+@media (max-width:500px){
+  html{
+    font-size: 50%;
+
+  }
+
+}
+
+
